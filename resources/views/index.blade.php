@@ -22,10 +22,10 @@
 
         <div>
             <h1>Welcome to my place</h1>
-        </div>
+        </div> <!-- Welcome Cover -->
 
         <div>
-            <h2>Projects</h2>
+            <h2><a href="{{ route('projects.index') }}">Projects</a></h2>
             <div>
                 <h3>maryballener.com</h3>
                 <div>
@@ -41,19 +41,46 @@
                 <div>
                 </div>
             </div>
-        </div>
+        </div> <!-- Featured Projects -->
         <div>
             <h2>About</h2>
             <div>
             </div>
-        </div>
+        </div> <!-- About -->
+        <div>
+            <h2><a href="{{ route('posts.index') }}">Blog</a></h2>
+            <div>
+                <h3>Post 1</h3>
+                <div>blurb</div>
+                <a href="{{ route('projects.show', ['id' => '1']) }}">more</a>
+            </div>
+        </div> <!-- Featured Blog Posts -->
+
         <div>
             <h2>Contact</h2>
             <div>
+                <form>
+                    <label>
+                        <input placeholder="Name" type="text" />
+                    </label>
+                    <label>
+                        <input placeholder="Email" type="email" />
+                    </label>
+                    <label>
+                        <input placeholder="Subject" type="subject" />
+                    </label>
+                    <label>
+                        <textarea>Message</textarea>
+                    </label>
+                    <button type="submit">Submit</button>
+                </form>
             </div>
-        </div>
+        </div> <!-- Contact -->
+
         <footer>
-        </footer>
+            <a href="https://github.com/nballener">github</a>
+            <a href="">facebook</a>
+        </footer> <!-- Footer -->
 
     </body>
 </html>
