@@ -9,31 +9,51 @@
         <script src="js/uikit.min.js"></script>
     </head>
     <body>
-        <nav class="uk-navbar uk-block uk-text-center">
-            <ul class="uk-navbar-nav">
+        <nav class="uk-navbar uk-text-center">
+            <ul class="uk-navbar-nav uk-hidden-small">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#"><i class="uk-icon-cog uk-icon-large"></i></a></li>
             </ul>
+            <a href="#hidden-nav" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
         </nav>
-        <div class="uk-block uk-block-primary uk-block-large">
-            <div class="uk-container uk-text-center uk-text-contrast">
-                <h1 class="uk-h1 uk-heading-large uk-text-contrast">Nilo Lives Here</h1>
-                <h2 class="uk-h2">Welcome to my portfolio page.</h2>
+        <div id="hidden-nav" class="uk-offcanvas">
+            <div class="uk-offcanvas-bar"></div>
+        </div>
+
+        <div>
+            <h1>Welcome to my place</h1>
+        </div>
+
+        <div>
+            <h2>Projects</h2>
+            <div>
+                <h3>maryballener.com</h3>
+                <div>
+                    maryballener.com is a client landing page built using the
+                    <a href="https://www.laravel.com">Laravel</a> framework,
+                    styling with <a href="https://getbootstrap.com/">Bootstrap</a>
+                    and the <a href="http://startbootstrap.com/template-overviews/agency/">Agency</a>
+                    template from <a href="http://startbootstrap.com/">Startbootstrap</a>
+                </div>
+            </div>
+            <div>
+                <h3>Shopping Buddy</h3>
+                <div>
+                </div>
             </div>
         </div>
-
-        <div class="uk-block">
-            winning
+        <div>
+            <h2>About</h2>
+            <div>
+            </div>
         </div>
-
-        <div class="uk-container uk-container-center uk-text-center">
-            <h1 class="uk-heading-large">About</h1>
-            <img src="http://placehold.it/150x150" class="uk-border-circle">
+        <div>
+            <h2>Contact</h2>
+            <div>
+            </div>
         </div>
+        <footer>
+        </footer>
 
-        <div class="uk-block uk-block-large uk-block-large">
-            <a href="https://github.com/nballener?tab=repositories" class="uk-icon-hover uk-icon-github uk-icon-large"></a>
-        </div>
     </body>
 </html>
