@@ -1,0 +1,11 @@
+.border-black {
+  border: 1px solid black;
+}
+
+.border-red {
+  border: 1px solid red;
+}
+
+#th-cover {
+  background-image: url("../img/banner.jpg");
+}

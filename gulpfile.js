@@ -12,9 +12,11 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss')
-    .copy('bower_components/jquery/dist/jquery.min.js', 'public/js/jquery.min.js')
-    .copy('bower_components/uikit/js', 'public/js')
-    .copy('bower_components/uikit/css', 'public/css')
-    .copy('bower_components/uikit/fonts', 'public/fonts');
+    mix
+        .sass('mytheme.scss', 'public/css/mytheme.css')
+        .copy('resources/assets/img/banner-001.jpg', 'public/img/banner.jpg')
+        .copy('bower_components/jquery/dist/jquery.min.js', 'public/js/jquery.min.js')
+        .copy('bower_components/uikit/js', 'public/js')
+        .copy('bower_components/uikit/css', 'public/css')
+        .copy('bower_components/uikit/fonts', 'public/fonts');
 });
