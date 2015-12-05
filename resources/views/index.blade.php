@@ -10,16 +10,7 @@
         <script src="js/uikit.min.js"></script>
     </head>
     <body>
-        <nav class="uk-navbar uk-text-center">
-            <ul class="uk-navbar-nav uk-hidden-small">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-            <a href="#hidden-nav" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-        </nav>
-        <div id="hidden-nav" class="uk-offcanvas">
-            <div class="uk-offcanvas-bar"></div>
-        </div>
+        @include('partials.navbar')
 
         <div id="th-cover" class="uk-cover-background uk-block">
             <div class="uk-container">
