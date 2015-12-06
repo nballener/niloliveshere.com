@@ -13,7 +13,7 @@
                                 Etiam tristique congue sollicitudin.
                                 Sed velit diam, hendrerit sit amet
                                 rutrum id, viverra quis felis.
-                                <a href="#">Link</a>
+                                <a href="{{ route('projects.show', ['id' => '1']) }}">Link</a>
                             </p>
                         </figcaption>
                     </figure>

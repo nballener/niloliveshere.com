@@ -16,7 +16,7 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        return view('project.index');
+        return view('projects.index');
     }
 
     /**
@@ -48,7 +48,9 @@ class ProjectController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('projects.show')->with([
+            'id' => $id,
+        ]);
     }
 
     /**
