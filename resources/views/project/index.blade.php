@@ -9,9 +9,12 @@
                     <figure class="uk-overlay uk-overlay-hover">
                         <img src="img/maryballener.com.thumb.png" class="uk-overlay-grayscale uk-thumbnail">
                         <figcaption class="uk-overlay-panel uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center uk-overlay-background">
-                            Etiam tristique congue sollicitudin.
-                            Sed velit diam, hendrerit sit amet
-                            rutrum id, viverra quis felis.
+                            <p>
+                                Etiam tristique congue sollicitudin.
+                                Sed velit diam, hendrerit sit amet
+                                rutrum id, viverra quis felis.
+                                <a href="#">Link</a>
+                            </p>
                         </figcaption>
                     </figure>
 
@@ -23,9 +26,12 @@
                         <figure class="uk-overlay uk-overlay-hover">
                             <img src="http://placehold.it/250x334/660033/e3e3e3" class="uk-overlay-grayscale uk-thumbnail">
                             <figcaption class="uk-overlay-panel uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center uk-overlay-background">
-                                Etiam tristique congue sollicitudin.
-                                Sed velit diam, hendrerit sit amet
-                                rutrum id, viverra quis felis.
+                                <p>
+                                    Etiam tristique congue sollicitudin.
+                                    Sed velit diam, hendrerit sit amet
+                                    rutrum id, viverra quis felis.
+                                    <a href="#">Link</a>
+                                </p>
                             </figcaption>
                         </figure>
 
